@@ -1,4 +1,4 @@
-package numberSevenPointOneNine;
+package AirlineReservationProject;
 
 public enum FlightSection {
     FIRSTCLASS,
