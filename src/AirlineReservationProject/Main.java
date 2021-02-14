@@ -2,7 +2,7 @@ package AirlineReservationProject;
 
 import java.util.Scanner;
 
-public class main {
+public class Main {
     static Scanner scanner = new Scanner(System.in);
     static int sentinel = 1;
     static Airline airline = new Airline();
