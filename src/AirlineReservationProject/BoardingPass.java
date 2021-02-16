@@ -59,4 +59,12 @@ public class BoardingPass {
                 "destination " + destination;
         return result;
     }
+
+    public void setDestination(String destination) {
+        this.destination = destination;
+    }
+
+    public String getDestination() {
+        return destination;
+    }
 }
