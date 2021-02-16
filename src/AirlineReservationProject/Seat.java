@@ -8,6 +8,7 @@ public class Seat {
 
     public Seat(FlightSection flightSection, int seatNumber){
         this.flightSection = flightSection;
+        this.seatNumber = seatNumber;
     }
 
     public boolean isAssigned() {

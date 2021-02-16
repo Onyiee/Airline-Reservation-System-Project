@@ -1,10 +1,8 @@
 package AirlineReservationProject;
 
-
-
 public class Airline {
-    private Seat[] firstClassSeats = new Seat[1];
-    private Seat[] economySeats = new Seat[1];
+    private Seat[] firstClassSeats = new Seat[5] ;
+    private Seat[] economySeats = new Seat[5];
     public Airline(){
         for (int counter = 0; counter < firstClassSeats.length; counter++){
             firstClassSeats[counter] = new Seat(FlightSection.FIRSTCLASS, counter+1);

@@ -7,7 +7,8 @@ public class BoardingPass {
     private String lastName;
     private String destination;
 
-    public BoardingPass(int seatNumber, FlightSection flightSection, String firstName, String lastName, String destination){
+    public BoardingPass(int seatNumber, FlightSection flightSection, String firstName, String lastName,
+                        String destination){
         this.seatNumber = seatNumber;
         this.flightSection = flightSection;
         this.firstName = firstName;
@@ -39,13 +40,15 @@ public class BoardingPass {
         this.firstName = firstName;
     }
 
-    public String getLastName() {
-        return lastName;
-    }
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
+    public String getLastName() {
+        return lastName;
+    }
+
 
     @Override
     public String toString() {
